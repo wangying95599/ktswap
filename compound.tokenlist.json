@@ -1,0 +1,88 @@
+{
+  "name": "KorTho Swap",
+  "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/compound-interface.svg",
+  "keywords": [
+    "KorTho",
+    "defi"
+  ],
+  "timestamp": "2021-05-27T20:37:00.000+00:00",
+  "tokens": [
+    {
+      "chainId": 8285,
+      "address": "0x3335AaBb77bCF592B682ffaBf9DD2184B70ea3cB",
+      "name": "KTO",
+      "symbol": "KTO",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
+    },
+    {
+      "chainId": 8285,
+      "address": "0xd18Acf4a3Fec17B660cA74B160dd417Ce2644f22",
+      "name": "WKTO",
+      "symbol": "WKTO",
+      "decimals": 11,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
+    },
+    {
+      "chainId": 8285,
+      "address": "0x289d44257A776edF7dAD62D8D8851838DA81c36B",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDT.svg"
+    },
+    {
+      "chainId": 8285,
+      "address": "0xBaa0b76CfE469e67395BA7c9C301b9ae8C279537",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/ctoken_eth.svg"
+    },
+    {
+      "chainId": 8285,
+      "address": "0x86B6F743b6D437b52Ebe1b94265132053d255136",
+      "name": "USDK",
+      "symbol": "USDK",
+      "decimals": 18
+    },
+    {
+      "chainId": 8285,
+      "address": "0xa01E9ce9d185Cd22244C1Bb21903eb30ecF65EF4",
+      "name": "USD Coin USDC",
+      "symbol": "USDC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
+    },
+    {
+      "chainId": 8285,
+      "address": "0x28E44f86C25f58Bc8D8dD45bF0873CD4AE363e77",
+      "name": "BTC",
+      "symbol": "BTC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/ctoken_wbtc.svg"
+    },
+    {
+      "chainId": 8285,
+      "address": "0x1464BCeb3c4d4Ed8607A0997016AE65EE92F714b",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "logoURI": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg"
+    },
+    
+    {
+      "chainId": 8285,
+      "address": "0x1AE948EB906fF65F44991Bdc6D35670246B8f964",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_DAI.svg"
+    }
+  ],
+  "version": {
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  }
+}
