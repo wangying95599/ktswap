@@ -17,6 +17,14 @@ export const COMP = new Token(ChainId.MAINNET, '0xc00e94Cb662C3520282E6f57172140
 export const MKR = new Token(ChainId.MAINNET, '0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2', 18, 'MKR', 'Maker')
 export const AMPL = new Token(ChainId.MAINNET, '0xD46bA6D942050d489DBd938a2C909A5d5039A161', 9, 'AMPL', 'Ampleforth')
 
+
+// export const DAI = new Token(ChainId.KorTho, '0x1AE948EB906fF65F44991Bdc6D35670246B8f964', 18, 'DAI', 'Dai Stablecoin')
+// export const USDC = new Token(ChainId.KorTho, '0xa01E9ce9d185Cd22244C1Bb21903eb30ecF65EF4', 18, 'USDC', 'USD//C')
+// export const USDT = new Token(ChainId.KorTho, '0x289d44257A776edF7dAD62D8D8851838DA81c36B', 18, 'USDT', 'Tether USD')
+// export const COMP = new Token(ChainId.MAINNET, '0xc00e94Cb662C3520282E6f5717214004A7f26888', 18, 'COMP', 'Compound')
+// export const MKR = new Token(ChainId.MAINNET, '0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2', 18, 'MKR', 'Maker')
+// export const AMPL = new Token(ChainId.MAINNET, '0xD46bA6D942050d489DBd938a2C909A5d5039A161', 9, 'AMPL', 'Ampleforth')
+
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
   [ChainId.ROPSTEN]: [WETH[ChainId.ROPSTEN]],

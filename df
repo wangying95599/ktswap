@@ -1,0 +1,131 @@
+warning: LF will be replaced by CRLF in src/constants/index.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/constants/lists.ts.
+The file will have its original line endings in your working directory.
+[1mdiff --git a/compound.tokenlist.json b/compound.tokenlist.json[m
+[1mdeleted file mode 100644[m
+[1mindex 28724fe..0000000[m
+[1m--- a/compound.tokenlist.json[m
+[1m+++ /dev/null[m
+[36m@@ -1,88 +0,0 @@[m
+[31m-{[m
+[31m-  "name": "KorTho Swap",[m
+[31m-  "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/compound-interface.svg",[m
+[31m-  "keywords": [[m
+[31m-    "KorTho",[m
+[31m-    "defi"[m
+[31m-  ],[m
+[31m-  "timestamp": "2021-05-27T20:37:00.000+00:00",[m
+[31m-  "tokens": [[m
+[31m-    {[m
+[31m-      "chainId": 8285,[m
+[31m-      "address": "0x3335AaBb77bCF592B682ffaBf9DD2184B70ea3cB",[m
+[31m-      "name": "KTO",[m
+[31m-      "symbol": "KTO",[m
+[31m-      "decimals": 18,[m
+[31m-      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"[m
+[31m-    },[m
+[31m-    {[m
+[31m-      "chainId": 8285,[m
+[31m-      "address": "0xd18Acf4a3Fec17B660cA74B160dd417Ce2644f22",[m
+[31m-      "name": "WKTO",[m
+[31m-      "symbol": "WKTO",[m
+[31m-      "decimals": 11,[m
+[31m-      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"[m
+[31m-    },[m
+[31m-    {[m
+[31m-      "chainId": 8285,[m
+[31m-      "address": "0x289d44257A776edF7dAD62D8D8851838DA81c36B",[m
+[31m-      "name": "Tether USD",[m
+[31m-      "symbol": "USDT",[m
+[31m-      "decimals": 18,[m
+[31m-      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDT.svg"[m
+[31m-    },[m
+[31m-    {[m
+[31m-      "chainId": 8285,[m
+[31m-      "address": "0xBaa0b76CfE469e67395BA7c9C301b9ae8C279537",[m
+[31m-      "name": "Ether",[m
+[31m-      "symbol": "ETH",[m
+[31m-      "decimals": 18,[m
+[31m-      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/ctoken_eth.svg"[m
+[31m-    },[m
+[31m-    {[m
+[31m-      "chainId": 8285,[m
+[31m-      "address": "0x86B6F743b6D437b52Ebe1b94265132053d255136",[m
+[31m-      "name": "USDK",[m
+[31m-      "symbol": "USDK",[m
+[31m-      "decimals": 18[m
+[31m-    },[m
+[31m-    {[m
+[31m-      "chainId": 8285,[m
+[31m-      "address": "0xa01E9ce9d185Cd22244C1Bb21903eb30ecF65EF4",[m
+[31m-      "name": "USD Coin USDC",[m
+[31m-      "symbol": "USDC",[m
+[31m-      "decimals": 18,[m
+[31m-      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"[m
+[31m-    },[m
+[31m-    {[m
+[31m-      "chainId": 8285,[m
+[31m-      "address": "0x28E44f86C25f58Bc8D8dD45bF0873CD4AE363e77",[m
+[31m-      "name": "BTC",[m
+[31m-      "symbol": "BTC",[m
+[31m-      "decimals": 18,[m
+[31m-      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/ctoken_wbtc.svg"[m
+[31m-    },[m
+[31m-    {[m
+[31m-      "chainId": 8285,[m
+[31m-      "address": "0x1464BCeb3c4d4Ed8607A0997016AE65EE92F714b",[m
+[31m-      "name": "Uniswap",[m
+[31m-      "symbol": "UNI",[m
+[31m-      "decimals": 18,[m
+[31m-      "logoURI": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg"[m
+[31m-    },[m
+[31m-    [m
+[31m-    {[m
+[31m-      "chainId": 8285,[m
+[31m-      "address": "0x1AE948EB906fF65F44991Bdc6D35670246B8f964",[m
+[31m-      "name": "Dai Stablecoin",[m
+[31m-      "symbol": "DAI",[m
+[31m-      "decimals": 18,[m
+[31m-      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_DAI.svg"[m
+[31m-    }[m
+[31m-  ],[m
+[31m-  "version": {[m
+[31m-    "major": 2,[m
+[31m-    "minor": 0,[m
+[31m-    "patch": 0[m
+[31m-  }[m
+[31m-}[m
+\ No newline at end of file[m
+[1mdiff --git a/src/constants/index.ts b/src/constants/index.ts[m
+[1mindex 4330db2..91f262f 100644[m
+[1m--- a/src/constants/index.ts[m
+[1m+++ b/src/constants/index.ts[m
+[36m@@ -17,6 +17,14 @@[m [mexport const COMP = new Token(ChainId.MAINNET, '0xc00e94Cb662C3520282E6f57172140[m
+ export const MKR = new Token(ChainId.MAINNET, '0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2', 18, 'MKR', 'Maker')[m
+ export const AMPL = new Token(ChainId.MAINNET, '0xD46bA6D942050d489DBd938a2C909A5d5039A161', 9, 'AMPL', 'Ampleforth')[m
+ [m
+[32m+[m
+[32m+[m[32m// export const DAI = new Token(ChainId.KorTho, '0x1AE948EB906fF65F44991Bdc6D35670246B8f964', 18, 'DAI', 'Dai Stablecoin')[m
+[32m+[m[32m// export const USDC = new Token(ChainId.KorTho, '0xa01E9ce9d185Cd22244C1Bb21903eb30ecF65EF4', 18, 'USDC', 'USD//C')[m
+[32m+[m[32m// export const USDT = new Token(ChainId.KorTho, '0x289d44257A776edF7dAD62D8D8851838DA81c36B', 18, 'USDT', 'Tether USD')[m
+[32m+[m[32m// export const COMP = new Token(ChainId.MAINNET, '0xc00e94Cb662C3520282E6f5717214004A7f26888', 18, 'COMP', 'Compound')[m
+[32m+[m[32m// export const MKR = new Token(ChainId.MAINNET, '0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2', 18, 'MKR', 'Maker')[m
+[32m+[m[32m// export const AMPL = new Token(ChainId.MAINNET, '0xD46bA6D942050d489DBd938a2C909A5d5039A161', 9, 'AMPL', 'Ampleforth')[m
+[32m+[m
+ const WETH_ONLY: ChainTokenList = {[m
+   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],[m
+   [ChainId.ROPSTEN]: [WETH[ChainId.ROPSTEN]],[m
+[1mdiff --git a/src/constants/lists.ts b/src/constants/lists.ts[m
+[1mindex 7be836b..c4de99b 100644[m
+[1m--- a/src/constants/lists.ts[m
+[1m+++ b/src/constants/lists.ts[m
+[36m@@ -1,6 +1,6 @@[m
+ // the Uniswap Default token list lives here[m
+[31m-export const DEFAULT_TOKEN_LIST_URL = 'compound.tokenlist.json'//needtomodify[m
+[31m-//export const DEFAULT_TOKEN_LIST_URL = 'https://toothswap.github.io/toothswap-tokenlist/tokenlist.json'//needtomodify[m
+[32m+[m[32m// export const DEFAULT_TOKEN_LIST_URL = 'tk.tokenlist.json'//needtomodify[m
+[32m+[m[32mexport const DEFAULT_TOKEN_LIST_URL = 'https://raw.githubusercontent.com/wangying95599/ktswap/main/compound.tokenlist.json'//needtomodify 换成raw域名，去掉blob[m
+ export const DEFAULT_LIST_OF_LISTS: string[] = [[m
+   DEFAULT_TOKEN_LIST_URL[m
+ ][m
