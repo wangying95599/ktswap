@@ -6,23 +6,6 @@
     "defi"
   ],
   "timestamp": "2021-05-27T20:37:00.000+00:00",
-  "tokens": [
-    {
-      "chainId": 8285,
-      "address": "0x3335AaBb77bCF592B682ffaBf9DD2184B70ea3cB",
-      "name": "ETHER",
-      "symbol": "KTO",
-      "decimals": 11,
-      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
-    },
-    {
-      "chainId": 8285,
-      "address": "0xd18Acf4a3Fec17B660cA74B160dd417Ce2644f22",
-      "name": "WKTO",
-      "symbol": "WKTO",
-      "decimals": 11,
-      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
-    },
     {
       "chainId": 8285,
       "address": "0x289d44257A776edF7dAD62D8D8851838DA81c36B",
