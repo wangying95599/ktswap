@@ -10,9 +10,9 @@
     {
       "chainId": 8285,
       "address": "0x3335AaBb77bCF592B682ffaBf9DD2184B70ea3cB",
-      "name": "KTO",
+      "name": "ETHER",
       "symbol": "KTO",
-      "decimals": 18,
+      "decimals": 11,
       "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
     },
     {
